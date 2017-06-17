@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfContextMenuSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfContextMenuSample"
+        mc:Ignorable="d"
+        Title="WpfContextMenuSample" Height="350" Width="525">
+    <Window.ContextMenu>
+        <ContextMenu>
+            <MenuItem Header="Wpf"/>
+            <MenuItem Header="Context"/>
+            <MenuItem Header="Menu"/>
+            <MenuItem Header="Sample">
+                <MenuItem Header="Sample1"/>
+                <MenuItem Header="Sample2"/>
+                <MenuItem Header="Sample3"/>
+            </MenuItem>
+        </ContextMenu>
+    </Window.ContextMenu>
+</Window>
